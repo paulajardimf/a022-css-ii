@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 header {
@@ -15,16 +15,16 @@ main {
 }
 
 .centraliza {
-  width: 90vw;
-  margin: 0 5vw 0 5vw;
+  width: 70vw;
+  margin: 0 15vw 0 15vw;
 }
-
 
 aside {
   width: 180px;
   border: 1px solid black;
   position: fixed;
   right: 0;
+  bottom: 5vh;
   text-align: center;
 }
 
@@ -38,16 +38,17 @@ aside button:active {
   color: black;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
-
 button {
   background-color: black;
   color: white;
   font-family: serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5vh;
+  position: fixed;
+  bottom: 0;
 }
